@@ -11,8 +11,6 @@ const ChangeLanguage = () => {
   const { i18n } = useTranslation();
   const [language, setLanguage] = useState(i18n.language);
 
-  console.log(language);
-
   useEffect(() => {
     i18n.changeLanguage(language);
   }, [language, i18n]);
