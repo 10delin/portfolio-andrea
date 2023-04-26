@@ -1,16 +1,18 @@
 import HeaderItem from "../HeaderItem/HeaderItem";
 import { HEADER_ITEMS } from "../../utils/model";
 import ChangeLanguage from "../ChangeLanguage/ChangeLanguage";
+import ContributeGithub from "../ContributeGithub/ContributeGithub";
 
 const Header = () => {
   return (
-    <header className="fixed w-full left-0 top-0 py-12 px-24">
+    <header className="flex flex-row fixed justify-between w-full left-0 top-0 py-5 px-24 z-10">
       <ChangeLanguage />
-      <ul className="flex flex-row w-full justify-between">
+      <ul className="flex flex-row w-full justify-center">
         {HEADER_ITEMS.map((item) => (
           <HeaderItem key={item.id} href={item.href} text={item.text} />
         ))}
       </ul>
+      <ContributeGithub />
     </header>
   );
 };

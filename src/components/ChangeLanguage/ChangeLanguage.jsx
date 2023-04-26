@@ -26,7 +26,7 @@ const ChangeLanguage = () => {
       : "flex relative items-center no-underline py-2 px-4 w-full cursor-pointer hover:bg-blue-300";
 
   return (
-    <div className="flex relative border border-solid border-[#afafaf] rounded max-w-[120px] mb-10">
+    <div className="flex relative border border-solid border-[#afafaf] rounded max-w-[120px]">
       <div className={classLanguageSpanish} onClick={() => setLanguage("es")}>
         <Image width={40} src={SpainIcon} alt="Spanish" />
       </div>
