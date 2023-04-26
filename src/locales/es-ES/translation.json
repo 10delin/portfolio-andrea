@@ -1,9 +1,9 @@
 {
   "header": {
-    "name": "Antonio Delage Cruzado",
-    "experience": "Experiencia",
+    "home": "Incio",
     "about": "Sobre mí",
-    "projects": "Proyectos"
+    "experience": "Experiencia",
+    "contact": "Contáctame"
   },
 
   "mainDescription": {
