@@ -18,7 +18,7 @@ const HeaderItem = ({ href, text }) => {
       >
         <span className="relative z-10">{t(text)}</span>
         <span
-          className={`absolute bottom-0 left-0 w-full h-0.5 bg-gray-600 transform origin-left transition-transform duration-200 z-0 ${
+          className={`absolute bottom-0 left-0 w-full h-0.5 bg-gray-600 transform origin-left transition-transform duration-300 z-0 ${
             isActive
               ? "scale-x-100 opacity-100"
               : "scale-x-0 opacity-0 hover:scale-x-100 hover:opacity-100"
