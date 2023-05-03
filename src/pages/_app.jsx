@@ -4,7 +4,7 @@ import { I18nextProvider } from "react-i18next";
 import i18n from "i18next";
 import translation_en from "../locales/en-GB/translation.json";
 import translation_es from "../locales/es-ES/translation.json";
-import Footer from "@/components/Footer/Footer";
+import Footer from "../components/Footer/Footer";
 
 i18n.init({
   interpolation: { escapeValue: false },
