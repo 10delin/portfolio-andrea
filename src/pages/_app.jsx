@@ -4,6 +4,7 @@ import { I18nextProvider } from "react-i18next";
 import i18n from "i18next";
 import translation_en from "../locales/en-GB/translation.json";
 import translation_es from "../locales/es-ES/translation.json";
+import Footer from "@/components/Footer/Footer";
 
 i18n.init({
   interpolation: { escapeValue: false },
@@ -23,6 +24,7 @@ export default function App({ Component, pageProps }) {
     <I18nextProvider i18n={i18n}>
       <Header />
       <Component {...pageProps} />
+      <Footer />
     </I18nextProvider>
   );
 }

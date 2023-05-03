@@ -43,3 +43,36 @@ export const EXPERIENCES = [
     actual: true,
   },
 ];
+
+export const iconSocial = [
+  {
+    id: 1,
+    icon: "https://img.icons8.com/color/48/000000/linkedin.png",
+    title: "Linkedin",
+    alt: "linkedin",
+    link: "https://www.linkedin.com/in/antonio-delage-cruzado/",
+  },
+  {
+    id: 2,
+    icon: "https://img.icons8.com/color/48/000000/github--v1.png",
+    title: "Github",
+    alt: "github",
+    link: "https://github.com/10delin",
+  },
+];
+
+export const iconContact = [
+  {
+    id: 1,
+    icon: "https://img.icons8.com/color/48/000000/gmail.png",
+    title: "Gmail",
+    alt: "gmail",
+    link: "mailto:delincruzado20@gmail.com",
+  },
+  {
+    id: 2,
+    icon: "https://img.icons8.com/color/48/000000/whatsapp--v1.png",
+    title: "Whatsapp",
+    alt: "whatsapp",
+  },
+];

@@ -92,9 +92,8 @@
     }
   },
   "footer": {
-    "title": "Antonio Delage",
-    "subtitle": "Open source web page made with ReactJS.",
-    "link": "Link to the repository on GitHub",
+    "title": "Andrea Gallardo",
+    "subtitle": "PhD in biomolecules",
     "contact": "Contact me:",
     "follow": "Follow me in:"
   }
