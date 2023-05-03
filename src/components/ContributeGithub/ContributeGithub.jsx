@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ContributeGithub = () => {
   return (
-    <div className="flex relative contribute-github ml-30">
+    <div className="flex relative contribute-github">
       <a
         href="https://github.com/10delin/portfolio-andrea"
         target="_blank"
@@ -13,7 +13,7 @@ const ContributeGithub = () => {
           src="https://img.icons8.com/color/48/000000/github.png"
           alt="github"
           width={50}
-          height={50}
+          height={10}
         />
       </a>
     </div>

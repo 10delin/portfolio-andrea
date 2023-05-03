@@ -1,8 +1,17 @@
-const ExperiencePage = () => {
+import { EXPERIENCES } from "../../utils/model";
+
+import ExperienceItem from "../../components/ExperienceItem/ExperienceItem";
+
+const ExperiencePage = ({ t }) => {
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
-      <h1 className="text-4xl font-bold">Experience Page</h1>
-      <p className="text-2xl">This is the experience page</p>
+    <div id="experience" className="mt-20 mx-10 w-full">
+      <div className="flex justify-start items-center rounded-2xl">
+        <ul className="mt-8 w-full">
+          {EXPERIENCES.map((experience) => (
+            <ExperienceItem key={experience.id} t={t} experience={experience} />
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };
