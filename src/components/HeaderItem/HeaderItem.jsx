@@ -12,7 +12,7 @@ const HeaderItem = ({ href, text }) => {
     <li className="flex relative items-center justify-center text-center">
       <Link
         href={href}
-        className={`px-10 py-4 relative inline-block font-semibold text-lg transition-colors duration-300 group overflow-hidden hover:text-[#2a85ee] ${
+        className={`px-10 py-4 relative inline-block font-semibold text-lg border border-transparent transition-colors duration-300 group overflow-hidden  hover:dark:bg-neutral-500/30 ${
           isActive ? "text-[#2a85ee]" : "text-[#0f104d]"
         }`}
       >
@@ -25,7 +25,7 @@ const HeaderItem = ({ href, text }) => {
           }`}
         ></span>
         <span
-          className={`absolute top-0 left-0 w-full h-full bg-gray-300 transition-opacity z-10 ${
+          className={`absolute top-0 left-0 w-full h-full dark:bg-neutral-400 transition-opacity z-10 ${
             isActive ? "opacity-20" : "opacity-0 hover:opacity-20"
           }`}
         ></span>
