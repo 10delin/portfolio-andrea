@@ -23,7 +23,9 @@ export default function App({ Component, pageProps }) {
   return (
     <I18nextProvider i18n={i18n}>
       <Header />
-      <Component {...pageProps} />
+      <div className="flex min-h-screen flex-col items-center justify-between px-24 py-24">
+        <Component {...pageProps} />
+      </div>
       <Footer />
     </I18nextProvider>
   );
