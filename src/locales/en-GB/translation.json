@@ -19,34 +19,30 @@
     }
   },
   "experience": {
-    "title": "Experience",
+    "title": "KEY INDUSTRY SKILLS",
     "item1": {
-      "position": "Frontend Developer",
-      "company": "Sectorea IT",
-      "date": "March.2023 - Present",
-      "description1": "Development of web applications for BBVA bank. In this project I used litElement, JavaScript and CELLS to develop high quality and scalable UI components, participating in testing and debugging issues to ensure the quality of the final product. My experience in litElement and JavaScript has allowed me to acquire solid skills in creating reusable web components and developing dynamic interactions and impressive visual effects in the interface",
-      "description2": ""
+      "position": "Strong Medical Communication Skills",
+      "company": "Gained as Research Scientist at University of Cádiz ",
+      "date": "Dec.2018 - Apr.2023 (4 yrs 5 mos)",
+      "description1": "<b>Present information</b> clear and concisely as demonstrated by <b>developing medical writing projects</b> which led to obtain <b>2+ budget funding.</b>",
+      "description2": "Higly experienced in <b>data collection, analysis and effective communication</b> to make informed decisions resulting in <b>4+ scientific publications.</b>",
+      "description3": "Strategic <b>decision making, budget management and interdepartamental collaboration</b> proven by the <b>realization of my PhD Project with <30.000€.</b>"
     },
     "item2": {
-      "position": "React Developer",
-      "company": "The WhiteTeam",
-      "date": "July.2022 - March.2023",
-      "description1": "- Created 2 pages for HSBC UK Bank using ReactJs. I improved the user experience by implementing React Query, Redux and React Router, resulting in a more intuitive and user-friendly user interface. In addition, I used Sass and HTML to improve the look and feel of the pages. The SCRUM methodology and the use of Git allowed me to work efficiently and deliver consistent results.",
-      "description2": "- In terms of performance, implementing React Query resulted in a 40% increase in data load speed and implementing Redux improved data consistency by 30%. The use of React Router also improved navigation by 20%. Overall, these improvements contributed to a more satisfying user experience and higher overall performance."
+      "position": "Strategic Leadership & Team Management",
+      "company": "Gained as Junior Scientist at INiBICA, Cádiz",
+      "date": "May.2016 - Jul.2017 (1 yr 2 mos)",
+      "description1": "Excellent <b>leadership</b> skills,developing <b>improvements in teaching </b>processes proven by coaching and <b>mentoring 7+ junior colleages</b> as evidenced the goals achieved in a shorter period of time/",
+      "description2": "<b>Strong teamwork ethic</b> with proven ability to <b>build prolific collaborations</b> resulting in <b>2 peer-reviewed scientific publications</b>.",
+      "description3": "<b>Outstanding adaptability</b> skills and experience meeting customer needs by proving simultaneous support to <b>4 clinical departments with innovate solutions.</b>"
     },
     "item3": {
-      "position": "Junior Frontend Developer",
-      "company": "Digital Cuisine",
-      "date": "June.2021 - June.2022",
-      "description1": "- In my first ReactJS project, I worked on the development of an application using React Hooks, Leaflet, HTML, CSS and Git, following a Kanban methodology. It was an enriching experience that allowed me to improve my skills in application development with ReactJS and in the use of interactive maps with Leaflet."
-    },
-    "item4": {
-      "position": "Junior Frontend Developer",
-      "company": "Digital Cuisine",
-      "date": "March.2021 - June.2021",
-      "description1": "- These months I had the opportunity to work on solving tickets related to the functionality of the application. This included both new feature development and bug fixing tasks.",
-      "description2": "- In addition to working with VanillaJS, I also used HTML and CSS to create the user interface and ensure visual consistency in the application. On the other hand, I used Git to keep version control and collaborate with other team members on development.",
-      "description3": "- This experience allowed me to improve my skills in developing applications with VanillaJS and how to integrate different technologies such as HTML, CSS and Git to create a complete and effective application. In addition, I learned how to work in a team and solve problems efficiently."
+      "position": "Project Management",
+      "company": "Gained as Research Associate at University of Granada",
+      "date": "May 2016 - Jul 2017 (1 yr 2 mos)",
+      "description1": "High level <b>strategic planner</b> with experience <b>managing 3+ projects </b>of diverse nature resulting in the <b>development of 1 external collaboration</b>",
+      "description2": "<b>Conflict management</b> in a fast-paced environment proved by working 1+ year in a multidisciplinary team with <b>20+ members and several departments.</b>",
+      "description3": "Effective <b>organization</b>, meeting <b>deadlines</b> and <b>expectations</b> proved by the <b>collaboration with 3+ departments in parallel.</b>"
     }
   },
   "certificate": "Certified in :",
